@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `common` mod in crate `smtp`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, common">
+
+    <title>smtp::common - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <section class="sidebar">
+        
+        <p class='location'><a href='../index.html'>smtp</a></p><div class='block mod'><h2>Modules</h2><a class='mod ' href='../client/index.html'>client</a><a class='mod ' href='../command/index.html'>command</a><a class='mod current' href='../common/index.html'>common</a><a class='mod ' href='../error/index.html'>error</a><a class='mod ' href='../extension/index.html'>extension</a><a class='mod ' href='../mailer/index.html'>mailer</a><a class='mod ' href='../response/index.html'>response</a><a class='mod ' href='../sendable_email/index.html'>sendable_email</a><a class='mod ' href='../tools/index.html'>tools</a><a class='mod ' href='../transaction/index.html'>transaction</a></div>
+    </section>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press 'S' to search, '?' for more options..."
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>smtp</a>::<wbr><a class='mod' href=''>common</a><wbr><a class='stability Unstable' title=''>Unstable</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="collapse-all" href="#">[-]
+            </a>&nbsp;<a id="expand-all" href="#">[+]</a>
+        </span><a id='src-5793' href='../../src/smtp/common.rs.html#10-41'>[src]</a></span></h1>
+<div class='docblock'><p>Constants defined in SMTP RFCs</p>
+</div><h2 id='statics' class='section-header'><a href="#statics">Statics</a></h2>
+<table>
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.COLON.html'
+                               title='smtp::common::COLON'>COLON</a></td>
+                        <td class='docblock short'><p>Colon</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.CR.html'
+                               title='smtp::common::CR'>CR</a></td>
+                        <td class='docblock short'><p>Carriage return</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.CRLF.html'
+                               title='smtp::common::CRLF'>CRLF</a></td>
+                        <td class='docblock short'><p>The line ending for SMTP transactions (carriage return + line feed)</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.LF.html'
+                               title='smtp::common::LF'>LF</a></td>
+                        <td class='docblock short'><p>Line feed</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.MESSAGE_ENDING.html'
+                               title='smtp::common::MESSAGE_ENDING'>MESSAGE_ENDING</a></td>
+                        <td class='docblock short'><p>The ending of message content</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.SMTPS_PORT.html'
+                               title='smtp::common::SMTPS_PORT'>SMTPS_PORT</a></td>
+                        <td class='docblock short'><p>Default smtps port</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.SMTP_PORT.html'
+                               title='smtp::common::SMTP_PORT'>SMTP_PORT</a></td>
+                        <td class='docblock short'><p>Default smtp port</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.SP.html'
+                               title='smtp::common::SP'>SP</a></td>
+                        <td class='docblock short'><p>The word separator for SMTP transactions</p>
+</td>
+                    </tr>
+                
+                    <tr>
+                        <td><a class='stability Unstable' title='Unstable'></a><a class='static' href='static.SUBMISSION_PORT.html'
+                               title='smtp::common::SUBMISSION_PORT'>SUBMISSION_PORT</a></td>
+                        <td class='docblock short'><p>Default submission port</p>
+</td>
+                    </tr>
+                </table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <div id="help" class="hidden">
+        <div class="shortcuts">
+            <h1>Keyboard shortcuts</h1>
+            <dl>
+                <dt>?</dt>
+                <dd>Show this help dialog</dd>
+                <dt>S</dt>
+                <dd>Focus the search field</dd>
+                <dt>&larrb;</dt>
+                <dd>Move up in search results</dd>
+                <dt>&rarrb;</dt>
+                <dd>Move down in search results</dd>
+                <dt>&#9166;</dt>
+                <dd>Go to active search result</dd>
+            </dl>
+        </div>
+        <div class="infos">
+            <h1>Search tricks</h1>
+            <p>
+                Prefix searches with a type followed by a colon (e.g.
+                <code>fn:</code>) to restrict the search to a given type.
+            </p>
+            <p>
+                Accepted types are: <code>fn</code>, <code>mod</code>,
+                <code>struct</code>, <code>enum</code>,
+                <code>trait</code>, <code>typedef</code> (or
+                <code>tdef</code>).
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "smtp";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script async src="../../search-index.js"></script>
+</body>
+</html>

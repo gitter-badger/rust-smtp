@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors['smtp'] = ["<a class='stability Unstable' title='Unstable'></a>impl <a class='trait' href='http://doc.rust-lang.org/nightly/std/error/trait.FromError.html' title='std::error::FromError'>FromError</a>&lt;<a class='struct' href='http://doc.rust-lang.org/nightly/std/io/struct.IoError.html' title='std::io::IoError'>IoError</a>&gt; for <a class='struct' href='smtp/error/struct.SmtpError.html' title='smtp::error::SmtpError'>SmtpError</a>","<a class='stability Unstable' title='Unstable'></a>impl <a class='trait' href='http://doc.rust-lang.org/nightly/std/error/trait.FromError.html' title='std::error::FromError'>FromError</a>&lt;<a href='http://doc.rust-lang.org/nightly/std/primitive.tuple.html'>(<a class='enum' href='smtp/error/enum.ErrorKind.html' title='smtp::error::ErrorKind'>ErrorKind</a>, &amp;'static <a href='http://doc.rust-lang.org/nightly/std/primitive.str.html'>str</a>)</a>&gt; for <a class='struct' href='smtp/error/struct.SmtpError.html' title='smtp::error::SmtpError'>SmtpError</a>","<a class='stability Unstable' title='Unstable'></a>impl <a class='trait' href='http://doc.rust-lang.org/nightly/std/error/trait.FromError.html' title='std::error::FromError'>FromError</a>&lt;<a class='struct' href='smtp/response/struct.Response.html' title='smtp::response::Response'>Response</a>&gt; for <a class='struct' href='smtp/error/struct.SmtpError.html' title='smtp::error::SmtpError'>SmtpError</a>","<a class='stability Unstable' title='Unstable'></a>impl <a class='trait' href='http://doc.rust-lang.org/nightly/std/error/trait.FromError.html' title='std::error::FromError'>FromError</a>&lt;&amp;'static <a href='http://doc.rust-lang.org/nightly/std/primitive.str.html'>str</a>&gt; for <a class='struct' href='smtp/error/struct.SmtpError.html' title='smtp::error::SmtpError'>SmtpError</a>",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
